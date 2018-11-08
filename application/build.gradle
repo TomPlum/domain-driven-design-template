@@ -1,0 +1,6 @@
+apply from: "${rootDir}/gradle/master.gradle"
+
+dependencies {
+    compile project(":domain")
+    compile project(":infrastructure")
+}

@@ -1,0 +1,10 @@
+apply from: "${rootDir}/gradle/master.gradle"
+
+dependencies {
+    compile("org.springframework.boot:spring-boot-starter:${springBootVersion}")
+    compile("org.springframework.boot:spring-boot-starter-web:${springBootVersion}")
+    compile("org.springframework.boot:spring-boot-starter-test:${springBootVersion}")
+    compile("org.junit.jupiter:junit-jupiter-api:5.1.1")
+    compile("org.junit.jupiter:junit-jupiter-engine:5.1.1")
+    compile("org.junit.platform:junit-platform-launcher:5.1.1")
+}

@@ -1,1 +1,5 @@
 rootProject.name = 'domain-driven-design-template'
+
+include 'domain'
+include 'application'
+include 'infrastructure'
