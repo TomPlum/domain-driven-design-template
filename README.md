@@ -13,16 +13,5 @@ This is essentially the UI (User Interface).
 
 ### Infrastructure
 
-## Domain-Driven Design Modelling
 
-### Entities
-
-### Value Objects
-
-### Services
-
-### Repositories
-
-### Modules
-
-### Aggregates
+*For a repository containg domain-driven design elements as marker interfaces. See my [domain-library](https://www.github.com/TomPlum/domain-library.git).*
