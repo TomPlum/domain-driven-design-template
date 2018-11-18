@@ -17,6 +17,11 @@ allprojects {
 
     repositories {
         mavenCentral()
+		jcenter()
+		maven {
+			name "jitpack"
+			url "https://jitpack.io"
+		}
     }
 
     group = 'com.ddd.template'
@@ -38,4 +43,6 @@ dependencies {
 	compile project(':application')
 
     runtime("org.springframework.boot:spring-boot-configuration-processor")
+
+	testCompile project(":test")
 }
