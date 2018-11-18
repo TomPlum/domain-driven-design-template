@@ -24,4 +24,4 @@ This is essentially the UI (User Interface).
 ### Infrastructure
 
 
-*For a repository containg domain-driven design elements as marker interfaces. See my [domain-library](https://www.github.com/TomPlum/domain-library.git).*
+*For a repository containing domain-driven design elements as marker interfaces. See my [domain-library](https://www.github.com/TomPlum/domain-library.git).*
