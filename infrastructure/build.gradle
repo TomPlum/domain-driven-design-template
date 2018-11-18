@@ -2,4 +2,11 @@ apply from: "${rootDir}/gradle/master.gradle"
 
 dependencies {
     compile project(":domain")
+
+    implementation('com.github.TomPlum:domain-library:1.1.4')
+
+    testCompile('org.junit.jupiter:junit-jupiter-api:5.3.1')
+    testCompile('org.assertj:assertj-core:3.11.1')
+
+    testCompile project(":test")
 }

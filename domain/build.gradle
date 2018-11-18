@@ -1,3 +1,3 @@
 dependencies {
-
+    implementation('com.github.TomPlum:domain-library:1.1.4')
 }
