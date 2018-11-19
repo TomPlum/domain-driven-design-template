@@ -44,5 +44,7 @@ dependencies {
 
     runtime("org.springframework.boot:spring-boot-configuration-processor")
 
+	compile("org.springframework.boot:spring-boot-autoconfigure:2.0.6.RELEASE")
+
 	testCompile project(":test")
 }
