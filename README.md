@@ -1,7 +1,7 @@
 # Domain-Driven Design Template
 A Domain-Driven Design template project with Gradle &amp; Spring Boot for IntelliJ IDEA. Inspired by 'Domain-Driven Design: Tackling Complexity in the Heart of Software, by Eric J. Evans'.
 
-## Layered Architecture 
+# Layered Architecture 
 The concept of layers in software design is a metaphor that is widely accepted in the industry. They allow different
 parts of the system to operate in isolation, conforming to the separation of concerns, while only depending on
 themselves and the layers beneath them.
@@ -26,6 +26,9 @@ debt and make the software easier to maintain, extend and understand.
 ## Infrastructure
 > Provides generic technical capabilities that support the higher layers; message sending for the application, persistence for the domain, drawing widgets for the UI, and so on. The infrastructure layer may also support the pattern of interactions between the four layers through an architectural framework.
 
-*All quotes above are from 'Domain-Driven Design: Tackling Complexity in the Heart of Software, Eric J. Evans.*
+# Separation of Concerns
+> Separating the domain layer from the infrastructure and user interface layers allows a much cleaner design of each layer. Isolated layers are much less expensive to maintain, because they tend to evolve at different rates and respond to different needs. The separation also helps with development in a distributed system, to allow different layers to be placed flexibly in different servers or clients, in order to minimise communication overhead and improve performance. (Fowler, 1996)
+
+*All quotes above, unless otherwise cited, are from 'Domain-Driven Design: Tackling Complexity in the Heart of Software, Eric J. Evans.*
 
 *For a repository containing domain-driven design elements as marker interfaces. See my [domain-library](https://www.github.com/TomPlum/domain-library.git).*
