@@ -24,8 +24,8 @@ allprojects {
 		}
     }
 
-    group = 'com.ddd.template'
-    version = '0.0.1-SNAPSHOT'
+    group = 'com.github.tomplum'
+    version = '1.0.0'
     sourceCompatibility = 1.8
 }
 
